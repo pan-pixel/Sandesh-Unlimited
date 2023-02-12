@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#C5C5C5;
+}
+.container-fluid a{
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    margin: 20x;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.Uploadsec{
+    background-color: rgb(41, 41, 41);
+    text-align: center;
+    padding:15px 30px ;
+}
+
+input[type="file"]{
+    display: none;
+}
+.upbtn{
+    display: inline-block;
+    text-transform: uppercase;
+    color: black;
+    background-color: red;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.5px;
+}
+label i{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.upbtn:active{
+    transform: scale(0.9);
+}
